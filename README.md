@@ -4,13 +4,9 @@
 Este proyecto desarrolla un modelo de **clasificación supervisada** para predecir el riesgo crediticio de clientes utilizando el dataset **Statlog (German Credit Data)** del repositorio UCI.  
 El objetivo principal es **identificar si un solicitante de crédito representa un “buen” o “mal” riesgo crediticio**, a partir de variables demográficas y financieras.
 
----
-
 ## 📦 Contenido del Proyecto
 - `EntregableM7.ipynb` → Cuaderno principal con todo el flujo de análisis.
 - `README.md` → Documento explicativo del proyecto.
-
----
 
 ## ⚙️ Flujo del Proyecto
 
@@ -45,14 +41,10 @@ Se evalúa el rendimiento utilizando:
 ### 7. Interpretabilidad del Modelo
 Se emplea **SHAP (SHapley Additive exPlanations)** para analizar la contribución de cada variable a las predicciones del modelo, ayudando a entender cómo influyen las características en la clasificación del riesgo.
 
----
-
 ## 📊 Resultados Destacados
 - Buen desempeño en la predicción del riesgo crediticio tras balancear las clases.  
 - SHAP permitió identificar las variables con mayor impacto en las decisiones del modelo.  
 - Se demuestra la aplicabilidad de redes neuronales en problemas de clasificación tabular.
-
----
 
 ## 🧩 Tecnologías Utilizadas
 - **Python 3.x**
@@ -62,8 +54,6 @@ Se emplea **SHAP (SHapley Additive exPlanations)** para analizar la contribució
 - **TensorFlow / Keras**
 - **SHAP**
 - **ucimlrepo**
-
----
 
 ## 🚀 Ejecución del Proyecto
 1. Instalar dependencias:
